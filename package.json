@@ -1,0 +1,48 @@
+{
+  "name": "bns-vscode-theme",
+  "displayName": "BNS VSCode Theme",
+  "description": "A modern, visually pleasing dark and light color theme for Visual Studio Code.",
+  "version": "1.0.0",
+  "publisher": "MrBns",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "color-theme",
+    "dark",
+    "light",
+    "bns",
+    "theme"
+  ],
+  "galleryBanner": {
+    "color": "#1e1e2e",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "BNS Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bns-dark-color-theme.json"
+      },
+      {
+        "label": "BNS Light",
+        "uiTheme": "vs",
+        "path": "./themes/bns-light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrBns/bns-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/MrBns/bns-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/MrBns/bns-vscode-theme#readme"
+}

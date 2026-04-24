@@ -1,0 +1,17 @@
+# Files and folders excluded from the published VSIX package.
+# The themes/ directory and key metadata files are included by default.
+
+.vscode/**
+.vscode-test/**
+node_modules/**
+out/**
+dist/**
+src/**
+.gitignore
+.eslintrc*
+.prettierrc*
+tsconfig.json
+webpack.config.js
+vsc-extension-quickstart.md
+**/.*
+*.vsix
