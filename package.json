@@ -5,7 +5,6 @@
   "version": "1.0.0",
   "publisher": "MrBns",
   "license": "MIT",
-  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.96.0"
   },

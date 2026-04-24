@@ -70,6 +70,8 @@ JavaScript · TypeScript · Python · Rust · Go · Java · C/C++ · HTML · CSS
 
 Issues and pull requests are welcome at [github.com/MrBns/bns-vscode-theme](https://github.com/MrBns/bns-vscode-theme/issues).
 
+> **Adding an icon:** Place a 256×256 PNG file at `images/icon.png` and add `"icon": "images/icon.png"` to `package.json` before publishing to the Marketplace.
+
 ## License
 
 [MIT](LICENSE)
